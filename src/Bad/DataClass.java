@@ -10,5 +10,12 @@ package Bad;
  * @author Pedrito
  */
 public class DataClass {
+    public class Test {
+        public int low, high;
+        
+        boolean includes(final int arg) {
+            return arg >= low && arg <= high;
+        }
+    }
     
 }
